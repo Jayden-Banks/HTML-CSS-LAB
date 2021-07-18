@@ -1,0 +1,90 @@
+* {
+    padding:5px;
+}
+table {
+    width: 100%;
+    box-sizing: border-box;   
+    border: solid black 4px;
+    
+}
+
+tr {
+    float: left;
+}
+td {
+    box-sizing: border-box;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.rect#green{
+    box-sizing: border-box;
+    width: 340px;
+    height: 170px;
+    background: green;
+
+
+
+}
+.rect#purple{
+    box-sizing: border-box;
+    width: 42px;
+    height: 125px;
+    background: blueviolet;
+    position: relative;
+    top: 22px;
+
+}
+.circ#blue {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    background: skyblue;
+    
+    
+}
+
+#part-2{
+    position: relative;
+    border: dotted black 5px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.rect#blanched {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 165px;
+    background: rgb(249, 245, 202);
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+#part-3 {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 100px;
+    position: relative;
+    display: block;
+    justify-content: center;
+    top: 40px;
+    border: solid rgb(179, 178, 178) 1px;
+    width: 500px;
+    box-shadow: 2px 2px 5px rgb(179, 178, 178);
+}
+
+#hello {
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    color: navy;
+    position: relative;
+    font-family: serif;
+    letter-spacing: 10px;
+    font-weight:bold;
+}

@@ -1,0 +1,44 @@
+ * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 228, 228);
+}
+#top-bar {
+    margin: 0px;
+    top: 0px;
+    border: solid rgb(65, 64, 64) 65px;
+    z-index: 3;
+}
+
+#left-bar {
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100vh;
+    border: solid rgb(209, 205, 209) 60px;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+}
+#right-bar {
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100vh;
+    border: solid rgb(209, 205, 209) 60px;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+    
+}
+#bottom-bar {
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 50px;
+    border: solid rgb(44, 44, 44) 30px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    
+}
